@@ -22,12 +22,11 @@ int main() {
             printf("guess the higher number please !\n");
         }
 
-        else if (guessed==randomNumber){
-            printf("Right guess!");
+        else if (guessed>randomNumber){
+            printf("guess the lower number please !\n");
         }
 
         else{
-            printf("guess the lower number please !\n");
         }
         no_of_guessed++ ;
 
